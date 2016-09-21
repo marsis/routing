@@ -1,0 +1,15 @@
+a{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+a.active {
+    color: darkred;
+}
+a:visited{
+    color: dimgrey;
+}
+div{
+    height: 100%;
+}

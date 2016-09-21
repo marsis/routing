@@ -1,0 +1,21 @@
+.sidebar{
+    float: left;
+    width: 15%;
+    margin: 10px;
+    background-color: beige;
+    color:  darkred;
+    height: 100%;
+
+}
+
+.content{
+    width: 60%;
+    float: left;
+    margin: 10px;
+    background-color: beige;
+    color:  darkred;
+}
+h1{
+    color:  darkred;
+    text-align: center;
+}
