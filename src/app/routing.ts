@@ -18,10 +18,10 @@ const  routes= [
     { path: '',  redirectTo: '/home', pathMatch: 'full'},
     { path: 'home', component: HomeComponent},
     { path: 'bubble-sort', component: ContentBubbleSortComponent,canActivate: [AuthGuardService]},
-    { path: 'quick-sort', component:ContentQuickSortComponent},
-    { path: 'coctail-sort', component: ContentCoctailSortComponent},
-    { path: 'merge-sort', component: ContentMergeSortComponent},
-    { path: 'insert-sort', component: ContentInsertSortComponent},
+    { path: 'quick-sort', component:ContentQuickSortComponent, canActivate: [AuthGuardService] },
+    { path: 'coctail-sort', component: ContentCoctailSortComponent, canActivate: [AuthGuardService]},
+    { path: 'merge-sort', component: ContentMergeSortComponent, canActivate: [AuthGuardService]},
+    { path: 'insert-sort', component: ContentInsertSortComponent, canActivate: [AuthGuardService]},
 
 ]
 

@@ -2,11 +2,11 @@
  Let's talk about types of sorting...
 </p>
 
-<form>
- <label>Login</label>
- <input type="text">
- <label>Password</label>
- <input type="password">
- <input type = submit>
 
-</form>
+ <label>Login</label>
+ <input type="login" placeholder="login" [(ngModel)]="login">
+ <label>Password</label>
+ <input type="password" placeholder="password" [(ngModel)]="password">
+ <button  (click)="getAuthData(login, password)">Submit</button>
+
+

@@ -7,10 +7,14 @@ export class AuthGuardService implements CanActivate {
 
   canActivate(){
    return new Promise<boolean>(resolve =>{
-     setTimeout(() => {
+    setTimeout(() => {
          resolve(false);
    },3000);
 
  });
+}
+
+checkAccount(){
+
 }
 }

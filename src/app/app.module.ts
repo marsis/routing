@@ -14,6 +14,7 @@ import { ContentMergeSortComponent } from './content-merge-sort/content-merge-so
 import { ContentInsertSortComponent } from './content-insert-sort/content-insert-sort.component';
 import { HomeComponent } from './home/home.component';
 import { routing, appRoutingProviders} from "./routing";
+//import {AuthService} from "./auth.service";
 
 
 
